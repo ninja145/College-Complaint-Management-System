@@ -163,9 +163,3 @@ docker compose down
 5. **Ownership Enforcement:** Students can only view grievances tied to their specific `student_id`.
 
 ---
-
-## 8. Academic Evaluation Notes (BCA Viva / Project Defense)
-
-- **Beginner-Friendly Procedural Logic:** The code avoids convoluted frameworks or magical abstractions, ensuring a student can easily explain every SQL query, session variable, and header redirect during viva examinations.
-- **Clean Architecture:** Configuration files and database credentials live outside the public document root (`public/`), following enterprise security guidelines.
-- **Relational Integrity:** Foreign key `CONSTRAINT fk_complaints_student FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE` ensures relational data consistency.
